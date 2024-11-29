@@ -5,6 +5,14 @@ export const exerciseOptions = {
         'x-rapidapi-key': '8ca8bc9bc0mshe9a460bfa97898fp1a040ejsne1d179f73711'
     }
 };
+
+export const youtubeOptions = {
+    method: 'GET',
+    headers: {
+      'x-rapidapi-key': '8ca8bc9bc0mshe9a460bfa97898fp1a040ejsne1d179f73711',
+      'x-rapidapi-host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+  };
       
 
 export const fetchData = async (url, options) => {
